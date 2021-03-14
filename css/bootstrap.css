@@ -5,6 +5,143 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+.bar {
+  background-color: CadetBlue;
+}
+.idoliMage {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 100%;
+  height:auto;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.Messitext {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 15px;
+  color: #3dd5f3;
+  transition: font-size 2s;
+}
+.Messitext:hover {
+  font-size: 30px;
+}
+.Jojotext {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 15px;
+  color: #3dd5f3;
+  transition: font-size 2s;
+}
+.Jojotext:hover {
+  font-size: 30px;
+}
+.battext {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 15px;
+  color: #3dd5f3;
+  transition: font-size 2s;
+}
+.battext:hover {
+  font-size: 30px;
+}
+.batmaniMage {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 100%;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+.movieimg{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 80%;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+.movieimg2{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+.movietext{
+  font-size: 3px;
+  font-family: "Times New Roman", Times, serif;
+}
+.lithead{
+  text-align:center;
+}
+.btn1 {
+  background-color: green;
+}
+.arrow {
+  width: 25%;
+  height: auto;
+  position: relative;
+  animation-name: example;
+  animation-duration:3s;
+  animation-delay: 1s;
+  animation-iteration-count:infinite;
+}
+.litback {
+background-color: Bisque;
+}
+.littext {
+  font-family: "Times New Roman", Times, serif;
+}
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  50%  {left:50%; top:0px;}
+  100% {left: 100%; top:0px;}
+}
+.mapsize{
+  width:400px;
+  height:265px;
+}
+.moviebackground {
+  background-image: url("https://i.ibb.co/02gjrzh/Movie.jpg");
+}
+.movieback {
+  background-color: deepskyblue;
+}
+.histbackground {
+  background-image: url("https://i.ibb.co/XDsbK3m/history-background.png");
+  background-repeat: repeat;
+  background-size: auto;
+}
+.litbackground {
+  background-image: url("https://i.ibb.co/B2Dn9Vf/literature-Background.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+}
+.smallFont {
+  font-size: x-small;
+}
+.center {
+  margin-left: auto;
+  margin-left: auto;
+}
+.historytext{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.histback {
+  background-color: Cornsilk;
+}
+div.polaroid {
+  width: 90%;
+  background-color: Azure;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+}
+
+div.containpolar {
+  text-align: center;
+  padding: 5px 10px;
+}
 .head1{
   text-shadow: 2px 2px #ff0000;
 }
@@ -17,8 +154,14 @@
 .head4{
   text-shadow: 2px 2px orangered;
 }
+.div1 {
+  width: 300px;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
 .trans1{
-  width: 250px;
+  width: 300px;
   height:auto;
   margin-left: auto;
   margin-right: auto;
@@ -120,7 +263,7 @@ ul.b {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Apple Color Emoji", serif;
   position: absolute;
   top: 50%;
@@ -3091,6 +3234,14 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #6c757d;
   border-color: #6c757d;
+  animation-name: example2;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease;
+}
+@keyframes example2 {
+  from {background-color: #6c757d;}
+  to {background-color: orange;}
 }
 .btn-secondary:hover {
   color: #fff;
@@ -3121,6 +3272,14 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #198754;
   border-color: #198754;
+  animation-name: example3;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease;
+}
+@keyframes example3 {
+  from {background-color: #198754;}
+  to {background-color: deepskyblue}
 }
 .btn-success:hover {
   color: #fff;
@@ -3151,6 +3310,14 @@ textarea.form-control-lg {
   color: #000;
   background-color: #0dcaf0;
   border-color: #0dcaf0;
+  animation-name: example4;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease;
+}
+@keyframes example4 {
+  from {background-color: #0dcaf0;}
+  to {background-color: hotpink}
 }
 .btn-info:hover {
   color: #000;
@@ -3211,6 +3378,14 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
+  animation-name: example5;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease;
+}
+@keyframes example5 {
+  from {background-color: #dc3545;}
+  to {background-color: blueviolet;}
 }
 .btn-danger:hover {
   color: #fff;
